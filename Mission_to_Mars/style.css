@@ -1,0 +1,111 @@
+body{
+    background-color: lightslategrey;
+    font-family: Georgia;
+}
+.navigation{
+    background-color:white;
+}
+.images{
+    width:100%;
+    height:100%; 
+}
+.navbar{
+    max-height: 57px; 
+    color: white; 
+    padding: 10px; 
+    font-weight: bold; 
+    font-family: Georgia;
+}
+.navbar-title{
+    padding: 10px; 
+    color: white;
+    background-color:teal;
+    margin-bottom: 0px;
+    margin
+}
+.nav-link{
+    padding-left: 10px; 
+    color:lightslategray; 
+}
+
+.nav-item{
+    background-color:white;
+    padding-left: 10px;
+}
+
+.dropdown{
+    background-color:white; 
+    color: gray;
+}
+
+.dropdown-menu{
+    color:lightslategray;
+}
+
+.title{
+    color: teal;
+    font-size: 25px;
+    font-weight: bold;  
+}
+.border{
+    border: 1px;
+    border-color: white;
+}
+.active{
+    border-color:teal;
+    border-style: solid;    
+}
+
+.container{
+    padding: 5px;
+}
+.visualization{
+    width:100%;
+    height:100%;
+}
+.row{
+    align-content: center;
+}
+
+p{
+ color: grey;
+ font-family: Georgia;
+ font-size: 18px; 
+}
+
+.box {
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+}
+
+.table{
+    font-size: 15px; 
+    border-top-color: white; 
+}
+.dataframe{
+    color: gray;
+    border: 2px;
+}
+#align-center{
+    text-align: center;  
+}
+
+@media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: teal !important;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar-title{
+        padding: 10px; 
+    }
+    button{
+        margin-right: 30px; 
+    }
+    }
+    
